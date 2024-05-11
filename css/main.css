@@ -25,6 +25,10 @@
 	text-align: center;
 }
 
+.product:hover .product-title {
+	scale: 1.6;
+}
+
 .first-product {
 	background-image: url("../img/kids.jpg");
 }
@@ -43,6 +47,7 @@
 
 .product-title {
 	text-transform: uppercase;
+    transition: scale 0.3s;
 }
 
 .contact {
@@ -57,7 +62,7 @@
 .footer {
 	padding: 30px 10px;
 	text-align: center;
-    background-color: #ddd;
+	background-color: #ddd;
 }
 
 @media (min-width: 768px) {
