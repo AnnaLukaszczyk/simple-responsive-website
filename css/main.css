@@ -10,7 +10,7 @@
 
 .about-us-info {
 	margin-bottom: 10px;
-    padding: 0 20px;
+	padding: 0 20px;
 }
 
 .products {
@@ -46,7 +46,17 @@
 }
 
 @media (min-width: 768px) {
-    .product-title {
-        font-size: 24px;
-    }
+	.product-title {
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 992px) {
+	.products-box {
+       font-size: 0; 
+	}
+	.product {
+		display: inline-block;
+		width: 50%;
+	}
 }
