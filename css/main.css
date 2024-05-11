@@ -45,6 +45,15 @@
 	text-transform: uppercase;
 }
 
+.contact {
+    text-align: center;
+}
+
+.contact-address {
+    text-transform: uppercase;
+    margin: 20px 0 5px;
+}
+
 @media (min-width: 768px) {
 	.product-title {
 		font-size: 24px;
