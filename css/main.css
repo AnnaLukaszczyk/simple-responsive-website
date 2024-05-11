@@ -63,10 +63,8 @@
 	margin: 20px 0 5px;
 }
 
-.footer {
-	padding: 30px 10px;
-	text-align: center;
-	background-color: #ddd;
+.fa-solid {
+    margin-right: 10px;
 }
 
 @media (min-width: 768px) {
